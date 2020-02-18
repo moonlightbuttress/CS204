@@ -1,0 +1,19 @@
+CharacterClass
+    3: Mod vs Modifier
+    10: wdm should be fully spelled out to match the rest of the constructor parameters
+    15: getWeaponDamageModifier not get wdm
+    27: getClassName not getCN
+Equipment
+    4: Should be private
+    9: otherEquipment is never used
+    11: weapon is not assigned in constructor
+    18: rename as to something more descriptive like abilityScore
+Race
+    6: name is never set
+    8: don't need constructor
+    32: getname doesn't have javadoc
+Treasure
+    4: gp isn't clear; should be goldPieces
+    4: gp is not initialized
+    5: otherTreasure is never used
+    11: typo Pieces is misspelled peces
